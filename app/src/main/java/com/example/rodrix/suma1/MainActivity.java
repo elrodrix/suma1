@@ -29,7 +29,7 @@ public class MainActivity extends ActionBarActivity {
         tvResultado = (TextView) findViewById(R.id.tvResultado);
     }
 
-    private void onClickSuma(View view){
+    public void onClickSuma(View view){
         int a = Integer.valueOf(et1.getText().toString());
         int b = Integer.valueOf(et2.getText().toString());
         int c = a + b;
