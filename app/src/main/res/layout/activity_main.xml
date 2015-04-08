@@ -21,7 +21,10 @@
         android:layout_height="wrap_content"
         android:text="Calcular"
         android:id="@+id/btnCalcular"
-        android:onClick="onClickSuma" />
+        android:onClick="onClickSuma"
+        android:textStyle="bold"
+        android:shadowColor="#ffff2615"
+        android:background="#ff6013ff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -29,11 +32,5 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
         android:id="@+id/tvResultado" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button" />
 
 </LinearLayout>
